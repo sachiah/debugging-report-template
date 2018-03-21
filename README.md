@@ -14,7 +14,7 @@ Even if you feel like you have *no idea*, take a guess! What are some possible i
 <br/>
 
 ```
-Your answer here...
+The problem appears to be the computer cannot "see" the correct answer, "a". When you type in the correct response, you are told your wrong and to guess again until you run out of guesses. 
 ```
 
 <br/>
@@ -28,7 +28,17 @@ Write down a list of questions that you have related to your specific hypothesis
 <br/>
 
 ```
-Your list of questions here....
+First thing I would check is the syntax of the program... are all the parenthesis, semicolons, etc. in the right places?
+Do the spellings of the variables match throughout the program?
+Are the variables with two-word names camel-cased in all instances?
+Does the spelling of the variable and ID  names in the html and CSS  match in the javascript?
+
+If nothing is found wrong in the above, then I focused on the parts of the program that deal with the answer itself, how it is pulled out of the html, how the function is written. 
+
+
+
+
+
 ```
 
 <br/>
@@ -42,7 +52,7 @@ This step isn't needed for every hypothesis (depends what it is!), but if applic
 <br/>
 
 ```
-Your list of findings here...
+
 ```
 
 <br/>
@@ -73,7 +83,8 @@ What was the result of your experiment? Did it solve the bug or not? Did it crea
 <br/>
 
 ```
-Your results here...
+I created a new bug where the program now says "you've won!" all the time,  no wrong answer.
+didn't solve the original bug. 
 ```
 
 <br/>
@@ -87,7 +98,7 @@ Did this experiment *confirm* your hypothesis? Or would you say this result is i
 <br/>
 
 ```
-Your conclusion here...
+The javascript file does load but I have to undo my new bug.  
 ```
 
 <br/>
